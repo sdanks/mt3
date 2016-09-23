@@ -1,0 +1,16 @@
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\TestPublisher.exe.config
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\TestPublisher.exe
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\TestPublisher.pdb
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\Contracts.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\MassTransit.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\MassTransit.RabbitMqTransport.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\NewId.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\RabbitMQ.Client.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\Contracts.pdb
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\MassTransit.xml
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\MassTransit.RabbitMqTransport.xml
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\obj\Debug\TestPublisher.csprojResolveAssemblyReference.cache
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\obj\Debug\TestPublisher.exe
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\TestPublisher\obj\Debug\TestPublisher.pdb

@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT3Test", "MT3Test\MT3Test.csproj", "{E55ED643-E62E-4905-93B3-61656F99B013}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPublisher", "TestPublisher\TestPublisher.csproj", "{AB2795F5-3649-4EC7-8C95-DE20D657A08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{4A75418F-F2D7-462A-9C76-0682A0970E29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E55ED643-E62E-4905-93B3-61656F99B013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E55ED643-E62E-4905-93B3-61656F99B013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E55ED643-E62E-4905-93B3-61656F99B013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2795F5-3649-4EC7-8C95-DE20D657A08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2795F5-3649-4EC7-8C95-DE20D657A08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2795F5-3649-4EC7-8C95-DE20D657A08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2795F5-3649-4EC7-8C95-DE20D657A08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A75418F-F2D7-462A-9C76-0682A0970E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A75418F-F2D7-462A-9C76-0682A0970E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A75418F-F2D7-462A-9C76-0682A0970E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A75418F-F2D7-462A-9C76-0682A0970E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

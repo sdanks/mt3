@@ -1,0 +1,5 @@
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\Contracts\bin\Debug\Contracts.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\Contracts\bin\Debug\Contracts.pdb
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\Contracts\obj\Debug\Contracts.dll
+C:\Users\sdanks\Documents\Visual Studio 2013\Projects\MT3Test\Contracts\obj\Debug\Contracts.pdb
