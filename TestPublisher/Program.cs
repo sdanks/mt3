@@ -19,7 +19,7 @@ namespace TestPublisher
         {
 
             var bus = Bus.Factory.CreateUsingRabbitMq(x =>
-        x.Host(new Uri("rabbitmq://localhost/"), h => { }));
+             x.Host(new Uri("rabbitmq://localhost/"), h => { }));
             var busHandle = bus.Start();
             var text = "";
 
