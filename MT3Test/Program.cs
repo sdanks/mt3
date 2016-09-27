@@ -18,22 +18,35 @@ namespace MT3Test
         
         
         static void Main(string[] args)
-            {
-             
+            {             
                 Log4NetLogger.Use();
+                
                 var bus = Bus.Factory.CreateUsingRabbitMq(x =>
                 {
-                    var host = x.Host(new Uri("rabbitmq://localhost/"), h => { });
-                                     
-
-                    x.ReceiveEndpoint(@"Scott", e =>
+                    //x.UseConcurrencyLimit(1);
+                    var host = x.Host(new Uri("rabbitmq://10.120.244.161/TPD"), h => 
+                    { 
+                        h.Username(@"TPD"); 
+                        h.Password(@"TPDUser"); 
+                    });
+                   
+                    x.ReceiveEndpoint(host,"Scott", e =>
+                        
                     e.Consumer<SomethingHappenedConsumer>());
                 });
-                                     
 
-                var busHandle = bus.Start();
-                Console.ReadKey();
-                busHandle.Stop();
+                //var busHandle = null;
+                try
+                { 
+                    var busHandle = bus.Start();
+                    Console.ReadKey();
+                    busHandle.Stop();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    throw;
+                }
             }
       }
     
@@ -41,10 +54,10 @@ namespace MT3Test
         {
         public Task Consume(ConsumeContext<SomethingHappened> context)
             {
-                Console.Write("TXT: " + context.Message.What);
-                Console.Write("  SENT: " + context.Message.When);
-                Console.Write("  PROCESSED: " + DateTime.Now);
-                Console.WriteLine(" (" + System.Threading.Thread.CurrentThread.ManagedThreadId + ")");
+                Console.WriteLine("TXT: " + context.Message.What);
+                //Console.Write("  SENT: " + context.Message.When);
+                //Console.Write("  PROCESSED: " + DateTime.Now);
+                //Console.WriteLine(" (" + System.Threading.Thread.CurrentThread.ManagedThreadId + ")");
                 return Task.FromResult(0);
             }
     }
